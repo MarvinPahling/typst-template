@@ -26,3 +26,22 @@ caption. @logo shows an example.
 ) <logo>
 
 The figure is numbered automatically and listed in the List of Figures.
+
+== Several Images in One Figure
+
+You can also put two images next to each other in one figure, for example
+to compare them. A grid with two columns places them side by side, and
+`width` sets how wide each image is.
+
+#figure(
+  grid(
+    columns: (1fr, 1fr),
+    column-gutter: 1em,
+    image("../assets/ostfalia.svg", width: 80%),
+    image("../assets/amu-logo.png", width: 40%),
+  ),
+  caption: [Two logos shown next to each other.],
+) <two-logos>
+
+As you can see in @two-logos, the left logo is much wider than the right
+one. Both images share one caption and one figure number.
