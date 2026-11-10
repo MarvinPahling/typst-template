@@ -43,7 +43,8 @@
 #include "chapters/1-introduction.typ"
 #include "chapters/2-background.typ"
 #include "chapters/3-results.typ"
-#include "chapters/4-conclusion.typ"
+#include "chapters/4-packages.typ"
+#include "chapters/5-conclusion.typ"
 
 #set heading(numbering: none)
 #bibliography("bib.yaml", title: [References], style: "elsevier-harvard")

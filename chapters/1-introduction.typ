@@ -25,6 +25,7 @@ Lists are easy to write. A dash creates a bullet point:
 
 - @background explains the theoretical background.
 - @results presents the results.
+- @packages shows how to use packages and plots.
 - @conclusion summarises the thesis.
 
 A plus sign creates a numbered list:
