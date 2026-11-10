@@ -1,5 +1,6 @@
 #import "cover.typ": cover
 #import "declaration.typ": declaration
+#import "@preview/wordometer:0.1.6": word-count
 
 #let meta = yaml("meta.yaml")
 #let date = if meta.date in (none, "") {
@@ -23,6 +24,7 @@
 #show table.cell.where(y: 0): strong
 #set math.equation(numbering: "(1)")
 #show link: set text(fill: accent)
+#show: word-count
 
 #cover(meta, date, logo: "assets/amu-logo.png")
 
