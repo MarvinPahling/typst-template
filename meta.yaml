@@ -1,0 +1,12 @@
+type: "Bachelor's Thesis"
+faculty: "[Faculty / Department]"
+program: "[Degree Programme]"
+title: "[Title of the Thesis]"
+subtitle: "[Subtitle]"
+name: "[Your Name]"
+student_id: "[Student ID]"
+supervisor: "[First Supervisor]"
+second_supervisor: "[Second Supervisor]"
+location: "[City]"
+date: ""
+keywords: []

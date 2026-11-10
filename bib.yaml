@@ -1,0 +1,44 @@
+harry:
+  type: Book
+  title: Harry Potter and the Order of the Phoenix
+  author: Rowling, J. K.
+  volume: 5
+  page-total: 768
+  date: 2003-06-21
+
+electronic:
+  type: Web
+  title: Ishkur's Guide to Electronic Music
+  serial-number: v2.5
+  author: Ishkur
+  url: http://www.techno.org/electronic-music-guide/
+
+smith2020:
+  type: Article
+  title: How to Write a Good Thesis
+  author: ["Smith, Jane", "Doe, John"]
+  date: 2020
+  page-range: 12-34
+  parent:
+    type: Periodical
+    title: Journal of Academic Writing
+    volume: 12
+    issue: 3
+
+rooney2018:
+  type: Book
+  title: Normal People
+  author: Rooney, Sally
+  date: 2018
+  publisher:
+    name: Faber & Faber
+    location: London
+
+prairie:
+  type: Book
+  title: Little House on the Prairie
+  author: Wilder, Laura Ingalls
+  date: 1935
+  publisher:
+    name: Harper & Brothers
+    location: New York
